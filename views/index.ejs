@@ -2,12 +2,12 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-
-    <script src="/bower/jquery/dist/jquery.min.js"></script>
+    <% include template/css.ejs %>
   </head>
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
   </body>
+
+  <% include template/js.ejs %>
 </html>
