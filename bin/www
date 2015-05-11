@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 var debug = require('debug')('express-demo');
 var app = require('../server/app.js');
 
