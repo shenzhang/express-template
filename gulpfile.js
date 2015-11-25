@@ -61,7 +61,7 @@ gulp.task('connectDist', function () {
 });
 
 gulp.task('watch', function() {
-	gulp.watch('app/js/**/*.js', ['minify-js']);
+	gulp.watch('app/scripts/**/*.js', ['minify-js']);
 	gulp.watch('app/**/*.html', ['copy-html-files']);
 	gulp.watch('app/bower_components/**/*.js', ['copy-bower-components']);
 });
